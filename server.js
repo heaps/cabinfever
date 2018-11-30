@@ -3,7 +3,7 @@ var app     = express();
 
 app.get('/', function(req,res){
 	console.log('Server Hit: ' + timeStamp())
-	res.send('Server Hit: ' + timeStamp());
+	res.send('Yes, Server Hit: ' + timeStamp());
 });
 
 function timeStamp(){
